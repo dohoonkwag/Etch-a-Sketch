@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.grid-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.grid-box {
+    color: white;
+}
