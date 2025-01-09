@@ -1,15 +1,42 @@
 .container {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    justify-content: space-around;
+    align-content: space-around;
+    justify-self: center;
+    align-self: center;
 }
 
 .grid-row {
     display: flex;
-    justify-content: space-between;
-    background-color: black;
+    justify-content: space-around;
+    align-content: center;
+    width: 500px;
 }
 
 .grid-box {
-    color: white;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    background-color: darkcyan;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    border-width: 5px;
+    border-color: black;
+    align-self: center;
+    margin: 40px;
 }
